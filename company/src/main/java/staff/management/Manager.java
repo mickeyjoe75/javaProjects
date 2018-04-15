@@ -12,6 +12,11 @@ public class Manager extends Employee {
     }
 
     public String getDeptName() {
+
         return deptName;
+    }
+
+    public static class Director {
+
     }
 }
