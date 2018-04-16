@@ -47,16 +47,13 @@ public class Hotel {
         this.bedRooms.add(bedRoom);
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public int bedRoomCount(){
         return this.bedRooms.size();
     }
 
-    public void serveFood(ArrayList<Guest>guests){
-        this.diningRoom.checkInToRoom(guests);
+    public void checkinOccupantsToDiningRoom(ArrayList<Guest>occupants){
+        this.diningRoom.setOccupants(occupants);
     }
 
 

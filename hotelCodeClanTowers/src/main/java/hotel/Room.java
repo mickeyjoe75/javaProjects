@@ -6,7 +6,7 @@ public abstract class Room {
 
 
     private int roomCapacity;
-    private ArrayList<Guest> guests;
+    private ArrayList<Guest> occupants;
     private double roomRate;
 
 
@@ -15,7 +15,7 @@ public abstract class Room {
         this.roomCapacity = roomCapacity;
         this.roomRate = roomRate;
 
-        this.guests = new ArrayList<Guest>();
+        this.occupants = new ArrayList<Guest>();
     }
 
     public int getRoomCapacity() {
@@ -28,7 +28,7 @@ public abstract class Room {
     }
 
     public ArrayList<Guest> getGuests() {
-        return guests;
+        return occupants;
     }
 
     public void setRoomCapacity(int roomCapacity) {
@@ -36,7 +36,7 @@ public abstract class Room {
     }
 
     public int guestPartySize(){
-        return guests.size();
+        return occupants.size();
     }
 
     public boolean isRoomVacant(){
@@ -47,15 +47,15 @@ public abstract class Room {
         return guestPartySize() == roomCapacity;
     }
 
-    public void checkInToRoom(Guest guest){
-        guests.add(guest);
+    public void checkInToRoom(Guest occupant){
+        occupants.add(occupant);
     }
 
     public void checkOutRoom(){
-        guests.clear();
+        occupants.clear();
     }
 
-
-
-
+    public void setOccupants(ArrayList<Guest> occupants) {
+        this.occupants = occupants;
+    }
 }
