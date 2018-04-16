@@ -21,10 +21,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.62821734">
       <split-first>
         <leaf>
-          <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="354">
+                <state relative-caret-position="509">
                   <caret line="34" selection-start-line="34" selection-end-line="34" />
                   <folding>
                     <element signature="e#307#308#0" expanded="true" />
@@ -42,11 +42,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Manager.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/staff/management/Manager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                <state relative-caret-position="-1">
+                  <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -110,7 +110,7 @@
           <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="67">
+                <state relative-caret-position="210">
                   <caret line="13" selection-start-line="13" selection-end-line="13" />
                   <folding>
                     <element signature="e#512#513#0" expanded="true" />
@@ -437,7 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="28" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -656,8 +656,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="23" width="1440" height="800" extended-state="1" />
-    <editor active="true" />
+    <frame x="28" y="23" width="1440" height="800" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -705,17 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -723,25 +711,6 @@
           <folding>
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -779,8 +748,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/staff/management/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-1">
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/staff/techStaff/Developer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/staff/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
