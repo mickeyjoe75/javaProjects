@@ -392,11 +392,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="81" />
-    <option name="y" value="173" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="833" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -509,7 +508,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="173" width="1440" height="833" extended-state="1" />
+    <frame x="81" y="173" width="1440" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
