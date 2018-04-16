@@ -8,13 +8,13 @@ public abstract class Room {
     private int roomCapacity;
     private ArrayList<Guest> guests;
     private double roomRate;
-    private String roomName;
 
 
-    public Room( int roomCapacity, double roomRate, String roomName){
+
+    public Room( int roomCapacity, double roomRate){
         this.roomCapacity = roomCapacity;
         this.roomRate = roomRate;
-        this.roomName = roomName;
+
         this.guests = new ArrayList<Guest>();
     }
 
@@ -22,9 +22,6 @@ public abstract class Room {
         return roomCapacity;
     }
 
-    public String getRoomName() {
-        return roomName;
-    }
 
     public double getRoomRate() {
         return roomRate;

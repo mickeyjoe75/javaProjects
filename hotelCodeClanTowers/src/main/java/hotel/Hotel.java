@@ -12,7 +12,7 @@ public class Hotel {
 
     public Hotel(String name){
         this.name = name;
-        bedRooms = new ArrayList<>();
+        bedRooms = new ArrayList<BedRoom>();
     }
 
     public String getName() {
@@ -56,7 +56,7 @@ public class Hotel {
     }
 
     public void serveFood(ArrayList<Guest>guests){
-        this.diningRoom.checkInToRoom(Guest guests);
+        this.diningRoom.checkInToRoom(guests);
     }
 
 
