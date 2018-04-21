@@ -1,6 +1,6 @@
 package hotel;
 
-import java.util.ArrayList;
+        import java.util.ArrayList;
 
 public class Hotel {
     private String name;
@@ -9,8 +9,7 @@ public class Hotel {
     private DiningRoom diningRoom;
 
 
-
-    public Hotel(String name){
+    public Hotel(String name) {
         this.name = name;
         bedRooms = new ArrayList<BedRoom>();
     }
@@ -48,16 +47,13 @@ public class Hotel {
     }
 
 
-    public int bedRoomCount(){
+    public int bedRoomCount() {
         return this.bedRooms.size();
     }
 
-    public void checkinOccupantsToDiningRoom(ArrayList<Guest>occupants){
+    public void checkinOccupantsToDiningRoom(ArrayList<Guest> occupants) {
         this.diningRoom.setOccupants(occupants);
     }
-
-
-
 
 
 }
