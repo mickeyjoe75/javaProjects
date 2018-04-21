@@ -6,8 +6,8 @@ int b;
 
 
   public Calculator(){
-    // this.a = a;
-    // this.b = b;
+    a = a;
+    b = b;
 
   }
 
@@ -23,12 +23,12 @@ int b;
     return a * b;
   }
 
-  public int divide(int a,int b){
+  public double divide(double a,double b){
     if (b != 0){
       return (a / b);
     }
     else{
-      System.out.println("Error! You cannot divide a number by zero.");
+      System.out.println("Error! You cannot divide a number by zero!");
       return 0;
     }
   }
@@ -49,8 +49,9 @@ int b;
     Calculator myCalculator = new Calculator();
     System.out.println(myCalculator.add(5,7));
     System.out.println(myCalculator.subtract(45,11));
+    System.out.println(myCalculator.multiply(14640,45454));
+    System.out.println(myCalculator.divide(45,0));
 
   }
-
 
 }
