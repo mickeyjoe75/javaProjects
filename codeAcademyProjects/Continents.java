@@ -1,5 +1,6 @@
 public class Continents {
 	public static void main(String[] args) {
+		//Prints out the continent details depending on the nuber input using a switch statement;
 
     int continent = 4;
 

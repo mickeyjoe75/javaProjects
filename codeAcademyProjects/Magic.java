@@ -1,5 +1,7 @@
 public class Magic {
 	public static void main(String[] args) {
+		//this little program will pring the numbe 3 irrespective of the number input by the user!
+
 		int myNumber;
 		myNumber  = 100;
 		//myNumber will be referred to as original number in the code snippet from now on
