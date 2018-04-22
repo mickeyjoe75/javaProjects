@@ -4,7 +4,7 @@ public class Droid{
 
   int batteryLevel;
 
-  public Droid(int batteryLevel){
+  public Droid(){
 
   batteryLevel = 100;
 
@@ -48,7 +48,7 @@ public class Droid{
   }
 
   public static void main(String[] args){
-    Droid myDroid = new Droid(100);
+    Droid myDroid = new Droid();
     myDroid.activate();
     myDroid.chargeBattery(5);
     myDroid.hover(2.1);
